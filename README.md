@@ -1,8 +1,53 @@
-# China-Telecom-Helper
+# China-Telecom-Helper 中国电信助手
 中国电信助手
 
+免费使用,禁止买卖,仅限用于学习和研究目的；不得用于商业或者非法用途，否则，一切后果请用户自负。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。
 
-活动规则请自行至电信查看,不作解释.
+## 前言
+
+活动规则请自行至电信官方查看,不作解释.
+
+金豆自动兑换话费模块可能涉及盈利,已移除.可自行手动兑换,每月固定15元,其他不定时活动0~200.
+
+
+
+## 配置运行
+
+cookie,para 自行抓包获取
+
+cloudflare cdn加速  
+
+https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13
+
+国内 cdn加速
+
+https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13
+
+
+### 完整示例
+
+```
+{
+  "users": [
+    {
+      "cookie": "cookie",
+      "para": "para",
+      "phone": 13800138000,
+      "systime": "https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
+      "github": "https://github.com/insoxin/China-Telecom-Helper"
+
+    }
+  ]
+}
+```
+
+
+
+## 运行截图
+
+
+![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
+
 ```
 中国电信助手v0.1
 
@@ -11,12 +56,18 @@
 下载更新:https://github.com/insoxin/China-Telecom-Helper
 
 正在查找配置文件
+
 配置已找到,正在解析
 
 
 Phone: 13800138000
 Cookie: cookie
-Para: Para
+Para: para
+
+
+开始获取远程时间:
+2022-05-17 15:54:58
+1652774098787
 
 
 开始800金豆兑换5元话费:未找到参数设置,自动跳过
@@ -51,5 +102,6 @@ Para: Para
 打开消息 (100金豆):操作成功
 答问卷 (100金豆):操作成功
 
-所有已完成任务领取金豆成功,部分任务需要手动操作完成,具体请看GitHub文档.
+所有已完成任务领取金豆成功,部分任务需要手动操作完成,具体请看GitHub文档.程序将在清理后台进程后关闭.
+
 ```
