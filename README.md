@@ -131,3 +131,10 @@ Para: para
 所有已完成任务领取金豆成功,部分任务需要手动操作完成,具体请看GitHub文档.程序将在清理后台进程后关闭.
 
 ```
+## 结束
+
+觉得好用可以给我点点star,打赏就不必了.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
+
+https://github.com/insoxin/api
+
+https://github.com/insoxin/China-Telecom-Helper
