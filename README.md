@@ -1,9 +1,13 @@
 # China-Telecom-Helper 中国电信助手
 中国电信助手
 
+每日签到(随机金豆),每日登录奖励领取(5金豆),查看我的云盘(10金豆),翻牌 (10金豆),查看我的订单 (5金豆),打开消息 (100金豆),当日分享 (50金豆),浏览生活频道 (5金豆),查看我的金豆 (5金豆),关注直播 (5金豆),观看直播15s (5金豆),打开消息 (100金豆),答问卷 (100金豆),部分任务需要手动操作完成
+![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
+
 免费使用,禁止买卖,仅限用于学习和研究目的；不得用于商业或者非法用途，否则，一切后果请用户自负。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。
 
 ## 前言
+
 
 活动规则请自行至电信官方查看,不作解释.
 
@@ -13,16 +17,21 @@
 
 ## 配置运行
 
-cookie,para 自行抓包获取
+程序同目录下创建 config.json 文件 (Linux 需要同时 chmod +x China-Telecom-Helper_0.1_linux_amd64)
 
-cloudflare cdn加速  
+phone,cookie,para自行抓包获取
+
+systime默认即可,也可更换国内cdn,
+
+```
+cloudflare 全球cdn加速  
 
 https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13
 
 国内 cdn加速
 
 https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13
-
+```
 
 ### 完整示例
 
@@ -40,7 +49,21 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
   ]
 }
 ```
+### 试运行
 
+Linux 
+```
+wget https://github.com/insoxin/China-Telecom-Helper/releases/download/0.1/China-Telecom-Helper_0.1_linux_amd64
+wget https://github.com/insoxin/China-Telecom-Helper/releases/download/0.1/config.json
+chmod +x China-Telecom-Helper_0.1_linux_amd64
+./China-Telecom-Helper_0.1_linux_amd64
+```
+config.json需要填写所有参数
+
+### 定时执行
+Linux 可使用 Crontab 设置定时任务
+
+windows可使用 系统任务计划程序 设置定时任务
 
 
 ## 运行截图
