@@ -20,8 +20,7 @@
 
 ## 配置运行
 
-程序同目录下创建 config.json 文件 (Linux 需要同时 chmod +x China-Telecom-Helper_0.1_linux_amd64)
-
+程序同目录下创建 config.json 文件 
 phone,cookie,para自行抓包获取
 
 systime默认即可,也可更换国内cdn,
@@ -53,6 +52,9 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 }
 ```
 ### 试运行
+![image.png](https://pic.rmb.bdstatic.com/bjh/b9f518e9d5ebe4671652700106623c78.png)
+根据自己系统下载,如若没有,可留言
+
 
 Linux 
 ```
@@ -61,7 +63,7 @@ wget https://github.com/insoxin/China-Telecom-Helper/releases/download/0.1/confi
 chmod +x China-Telecom-Helper_0.1_linux_amd64
 ./China-Telecom-Helper_0.1_linux_amd64
 ```
-config.json需要填写所有参数
+config.json 别忘了填写所有参数
 
 ### 定时执行
 Linux 可使用 Crontab 设置定时任务
