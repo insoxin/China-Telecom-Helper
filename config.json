@@ -1,12 +1,20 @@
 {
-  "users": [
-    {
-      "cookie": "cookie",
-      "para": "para",
-      "phone": 13800138000,
-      "systime": "http://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
-      "github": "https://github.com/insoxin/China-Telecom-Helper"
+	"users": [{
+			"cookie": "cookie",
+			"para": "para",
+			"phone": 13800138000,
+			"monthlybeans": "monthly beans",
+			"Paradise": [{
+				"setting": "true"
+			}, {
+				"Polymerize": "Polymerize"
+			}, {
+				"Polymerize": "Polymerize"
+			}],
+			"systime": "https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
+			"github": "https://github.com/insoxin/China-Telecom-Helper"
 
-    }
-  ]
+		}
+
+	]
 }
