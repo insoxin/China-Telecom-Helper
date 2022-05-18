@@ -25,7 +25,6 @@
 年入保底256+
 
 
-
 ## 配置运行
 
 程序同目录下创建 config.json 文件或者 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 下载填写自值
