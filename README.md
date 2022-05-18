@@ -93,6 +93,8 @@ windows可使用 系统任务计划程序 设置定时任务
 
 ## 结束
 
+问题反馈:https://github.com/insoxin/China-Telecom-Helper/issues
+
 觉得好用可以给我下面项目点点star,打赏就不必了.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
 
 https://github.com/insoxin/api
