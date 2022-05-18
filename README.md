@@ -12,16 +12,27 @@
 ## 前言
 
 
-活动规则请自行至电信官方查看,不作解释.
+活动规则请自行至[wiki](https://github.com/insoxin/China-Telecom-Helper/wiki)查看
 
-金豆自动兑换话费模块可能涉及盈利,已移除.可自行手动兑换,每月固定15元,其他不定时活动0~200.
+金豆自动兑换话费模块可能涉及盈利,已移除.可自行手动兑换
+
+金豆每月固定可兑换17元 17*12=204
+
+每签到7天可以200金豆兑换1元话费 365÷7=52.14
+
+再加上不定时活动
+
+年入保底256+
 
 
 
 ## 配置运行
 
-程序同目录下创建 config.json 文件 
-phone,cookie,para自行抓包获取
+程序同目录下创建 config.json 文件或者 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 下载填写自值
+
+phone,cookie,para等自行抓包获取
+
+[一些数据值的抓包教程]([https://github.com/insoxin/China-Telecom-Helper/wiki](https://github.com/insoxin/China-Telecom-Helper/wiki/%E4%B8%80%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E7%9A%84%E6%8A%93%E5%8C%85%E6%95%99%E7%A8%8B))
 
 systime默认即可,也可更换国内cdn,
 
@@ -37,18 +48,28 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 
 ### 完整示例
 
+下列文档中示例json 只是示范,要灵活运用.可能存在与新版本不兼容问题,具体请以 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 为准
+
 ```
 {
-  "users": [
-    {
-      "cookie": "cookie",
-      "para": "para",
-      "phone": 13800138000,
-      "systime": "https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
-      "github": "https://github.com/insoxin/China-Telecom-Helper"
+	"users": [{
+			"cookie": "cookie",
+			"para": "para",
+			"phone": 13800138000,
+			"monthlybeans": "monthly beans",
+			"Paradise": [{
+				"setting": "true"
+			}, {
+				"Polymerize": "Polymerize"
+			}, {
+				"Polymerize": "Polymerize"
+			}],
+			"systime": "https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
+			"github": "https://github.com/insoxin/China-Telecom-Helper"
 
-    }
-  ]
+		}
+
+	]
 }
 ```
 ### 试运行
@@ -66,6 +87,7 @@ chmod +x China-Telecom-Helper_0.1_linux_amd64
 config.json 别忘了填写所有参数
 
 ### 定时执行
+
 Linux 可使用 Crontab 设置定时任务
 
 windows可使用 系统任务计划程序 设置定时任务
@@ -73,69 +95,11 @@ windows可使用 系统任务计划程序 设置定时任务
 
 ## 运行截图
 
-
 ![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
 
-```
-中国电信助手v0.1
-
-免费使用,禁止买卖,仅限用于学习和研究目的；不得用于商业或者非法用途，否则，一切后果请用户自负。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。
-
-下载更新:https://github.com/insoxin/China-Telecom-Helper
-
-正在查找配置文件
-
-配置已找到,正在解析
-
-
-Phone: 13800138000
-Cookie: cookie
-Para: para
-
-
-开始获取远程时间:
-2022-05-17 15:54:58
-1652774098787
-
-
-开始800金豆兑换5元话费:未找到参数设置,自动跳过
-开始400金豆兑换2元话费:未找到参数设置,自动跳过
-开始200金豆兑换1元话费:未找到参数设置,自动跳过
-
-开始第1次喂食:今天已达到最大喂食次数
-开始第2次喂食:今天已达到最大喂食次数
-开始第3次喂食:今天已达到最大喂食次数
-开始第4次喂食:今天已达到最大喂食次数
-开始第5次喂食:今天已达到最大喂食次数
-开始第6次喂食:今天已达到最大喂食次数
-开始第7次喂食:今天已达到最大喂食次数
-开始第8次喂食:今天已达到最大喂食次数
-开始第9次喂食:今天已达到最大喂食次数
-开始第10次喂食:今天已达到最大喂食次数
-
-
-每日签到:操作成功
-每日登录奖励领取(5金豆):操作成功
-查看我的云盘(10金豆):操作成功
-翻牌 (10金豆):操作成功
-查看我的订单 (5金豆):操作成功
-打开消息 (100金豆):操作成功
-当日分享 (50金豆):操作成功
-浏览生活频道 (5金豆):操作成功
-查看我的金豆 (5金豆):操作成功
-关注直播 (5金豆):操作成功
-取消关注直播:操作成功
-观看直播15s (5金豆):打开中国电信直播
-观看15s结束
-打开消息 (100金豆):操作成功
-答问卷 (100金豆):操作成功
-
-所有已完成任务领取金豆成功,部分任务需要手动操作完成,具体请看GitHub文档.程序将在清理后台进程后关闭.
-
-```
 ## 结束
 
-觉得好用可以给我点点star,打赏就不必了.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
+觉得好用可以给我下面项目点点star,打赏就不必了.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
 
 https://github.com/insoxin/api
 
