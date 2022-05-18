@@ -77,13 +77,7 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 根据自己系统下载,如若没有,可留言
 
 
-Linux 
-```
-wget https://github.com/insoxin/China-Telecom-Helper/releases/download/0.1/China-Telecom-Helper_0.1_linux_amd64
-wget https://github.com/insoxin/China-Telecom-Helper/releases/download/0.1/config.json
-chmod +x China-Telecom-Helper_0.1_linux_amd64
-./China-Telecom-Helper_0.1_linux_amd64
-```
+
 config.json 别忘了填写所有参数
 
 ### 定时执行
