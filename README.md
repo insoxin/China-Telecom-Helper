@@ -75,13 +75,15 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 ![image.png](https://pic.rmb.bdstatic.com/bjh/b9f518e9d5ebe4671652700106623c78.png)
 根据自己系统下载,如若没有,可留言
 
+https://github.com/insoxin/China-Telecom-Helper/releases
 
+国内蓝奏云(更新没GitHub及时) 国内 https://wwi.lanzouf.com/b0efvpoaf 密码:b13w
 
 config.json 别忘了填写所有参数
 
 ### 定时执行
 
-特别注意:电信官方服务器经常抽风,导致不成功所以让他每八小时执行一下,一天三次.
+特别注意:电信官方服务器经常抽风,导致不成功所以让他每八小时执行一下,一天三次.显示空白是服务器抽风,显示聚合任务接口成功才是请求成功了
 
 Linux 可使用 Crontab 设置定时任务
 
@@ -89,6 +91,8 @@ windows可使用 系统任务计划程序 设置定时任务
 
 
 ## 运行截图
+
+![image](https://user-images.githubusercontent.com/19371836/169181296-ab7af2e5-857c-472d-ba94-7b1277292caf.png)
 
 ![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
 
