@@ -107,3 +107,10 @@ windows可使用 系统任务计划程序 设置定时任务
 https://github.com/insoxin/api
 
 https://github.com/insoxin/China-Telecom-Helper
+
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/insoxin/China-Telecom-Helper.svg)](https://starchart.cc/insoxin/China-Telecom-Helper)
+
