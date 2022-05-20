@@ -12,7 +12,7 @@
 			}, {
 				"Polymerize": "Polymerize"
 			}],
-			"systime": "https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
+			"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
 			"github": "https://github.com/insoxin/China-Telecom-Helper"
 
 		}
