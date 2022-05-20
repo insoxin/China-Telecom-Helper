@@ -23,6 +23,8 @@
 再加上不定时活动
 
 年入保底256+
+![JKT9DN8BOUSH0BDO{P~CV$O](https://user-images.githubusercontent.com/19371836/169460450-f67cb1fb-346c-4615-9b8e-716a2dcea92a.jpg)
+![image](https://user-images.githubusercontent.com/19371836/169460610-cda8844a-a86d-40be-a821-c9cf2c5bbc68.png)
 
 
 ## 配置运行
