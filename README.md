@@ -54,10 +54,11 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 ```
 {
 	"users": [{
+		        "AutoUpdate": "flase",
 			"cookie": "cookie",
-			"para": "para",
+			"para512": "para512字符",
 			"phone": 13800138000,
-			"monthlybeans": "monthly beans",
+			"para768": "para768字符",
 			"Paradise": [{
 				"setting": "true"
 			}, {
@@ -65,7 +66,7 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 			}, {
 				"Polymerize": "Polymerize"
 			}],
-			"systime": "https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
+			"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
 			"github": "https://github.com/insoxin/China-Telecom-Helper"
 
 		}
