@@ -51,29 +51,7 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 
 下列文档中示例json 只是示范,要灵活运用.可能存在与新版本不兼容问题,具体请以 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 为准
 
-```
-{
-	"users": [{
-		        "AutoUpdate": "flase",
-			"cookie": "cookie",
-			"para512": "para512字符",
-			"phone": 13800138000,
-			"para768": "para768字符",
-			"Paradise": [{
-				"setting": "true"
-			}, {
-				"Polymerize": "Polymerize"
-			}, {
-				"Polymerize": "Polymerize"
-			}],
-			"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
-			"github": "https://github.com/insoxin/China-Telecom-Helper"
 
-		}
-
-	]
-}
-```
 ### 试运行
 ![image.png](https://pic.rmb.bdstatic.com/bjh/b9f518e9d5ebe4671652700106623c78.png)
 根据自己系统下载,如若没有,可留言
