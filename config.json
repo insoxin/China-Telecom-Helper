@@ -1,6 +1,6 @@
 {
 	"users": [{
-		        "AutoUpdate": "flase",
+		        "AutoUpdate": "false",
 			"cookie": "cookie",
 			"para512": "para512字符",
 			"phone": 13800138000,
