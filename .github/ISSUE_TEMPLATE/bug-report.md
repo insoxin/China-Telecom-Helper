@@ -30,7 +30,7 @@ v1.0.0
 ```
 {
 	"users": [{
-		        "AutoUpdate": "flase",
+		        "AutoUpdate": "false",
 			"cookie": "cookie",
 			"para": "para",
 			"phone": 13800138000,
