@@ -1,2 +1,2 @@
-*.md linguist-language=C#
+*.md linguist-language=golang
 main linguist-language=C#
