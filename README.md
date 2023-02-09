@@ -32,9 +32,24 @@
 
 程序同目录下创建 config.json 文件或者 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 下载填写自值
 
+### 1.验证码登录
+
+![image](https://user-images.githubusercontent.com/19371836/217834192-ee32703f-8cf5-4643-8d77-0281abcda0da.png)
+
+后端今晚已写好,教程和前端完善中...请等待
+
+
+### 2.自行抓包,填入 
+
+因电信app加强了反抓包,对部分人抓包难道较大,1.0.8版本后逐渐减少抓包依赖
+
+
 phone,cookie,para等自行抓包获取
 
 抓包教程:[一些数据值的抓包教程](https://github.com/insoxin/China-Telecom-Helper/wiki/%E4%B8%80%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E7%9A%84%E6%8A%93%E5%8C%85%E6%95%99%E7%A8%8B)
+
+
+### 其他补充
 
 systime默认即可,也可更换国内cdn,
 
