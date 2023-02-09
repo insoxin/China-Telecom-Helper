@@ -1,22 +1,28 @@
 {
 	"users": [{
-			"AutoUpdate": "false",
-			"Notice": "GitHub",
-			"cookie": "cookie",
-			"para512": "para512字符",
-			"phone": 13800138000,
-			"para768": "para768字符",
-			"Paradise": [{
-				"setting": "true"
-			}, {
-				"Polymerize": "Polymerize"
-			}, {
-				"Polymerize": "Polymerize"
-			}],
-			"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
-			"github": "https://github.com/insoxin/China-Telecom-Helper"
-
-		}
-
-	]
+		"AutoUpdate": "false",
+		"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
+		"Authorization": "false",
+		"ua": "",
+		"Monthlybeans": "",
+		"cookie": "cookie",
+		"Notice": "GitHub",
+		"phone": 13800138000,
+		"para": [{
+			"setting": "false"
+		}, {
+			"para156": ""
+		}, {
+			"para256": ""
+		}, {
+			"para768": ""
+		}],
+		"Paradise": [{
+			"Polymerize": ""
+		}, {
+			"Polymerize": ""
+		}, {
+			"Polymerize": ""
+		}]
+	}]
 }
