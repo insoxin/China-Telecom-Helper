@@ -57,10 +57,6 @@ Linux 可使用 Crontab 设置定时任务
 windows可使用 系统任务计划程序 设置定时任务
 
 
-## 运行截图
-
-![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
-
 
 ## 其他补充
 
