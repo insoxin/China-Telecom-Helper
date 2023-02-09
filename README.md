@@ -33,12 +33,12 @@
 程序同目录下创建 config.json 文件或者 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 下载填写自值
 
 ### 1.验证码登录
-
+验证码发送
 ![image](https://user-images.githubusercontent.com/19371836/217848074-11a64ba4-ef49-40ba-9524-481f87bc9ad0.png)
+免密预授权唯一ID获取
 ![image](https://user-images.githubusercontent.com/19371836/217848451-dc82e619-8527-4ee1-a476-ba1ba87108c7.png)
 
-后端今晚已写好,教程和前端完善中...请等待
-
+后端今晚()已写好,教程和前端完善中...请等待
 
 ### 2.自行抓包,填入 
 
