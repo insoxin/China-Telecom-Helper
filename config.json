@@ -3,6 +3,7 @@
 		"AutoUpdate": "false",
 		"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
 		"Authorization": "false",
+		"sign": "false",
 		"ua": "",
 		"Monthlybeans": "",
 		"cookie": "cookie",
