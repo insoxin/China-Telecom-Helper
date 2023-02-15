@@ -6,7 +6,6 @@
 
 ![image](https://user-images.githubusercontent.com/19371836/219005361-cc37d88c-83f3-4317-876e-9c9d65e9e806.png)
 
-![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
 
 
 免费使用,禁止买卖,仅限用于学习和研究目的；不得用于商业或者非法用途，否则，一切后果请用户自负。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。
@@ -25,8 +24,6 @@
 再加上不定时活动
 
 年入保底256+
-![JKT9DN8BOUSH0BDO{P~CV$O](https://user-images.githubusercontent.com/19371836/169460450-f67cb1fb-346c-4615-9b8e-716a2dcea92a.jpg)
-![image](https://user-images.githubusercontent.com/19371836/169460610-cda8844a-a86d-40be-a821-c9cf2c5bbc68.png)
 
 
 ## 配置运行
@@ -80,6 +77,10 @@ https://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626
 
 https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13
 ```
+
+## 运行截图
+
+![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
 
 
 ## 结束
