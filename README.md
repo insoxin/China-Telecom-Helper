@@ -4,6 +4,7 @@
 
 每月金豆领取(lv6,1000金豆),每日签到(随机金豆),每日喂食宠物.每日登录奖励领取(5金豆),查看我的云盘(10金豆),翻牌 (10金豆),查看我的订单 (5金豆),打开消息 (100金豆),当日分享 (50金豆),浏览生活频道 (5金豆),查看我的金豆 (5金豆),关注直播 (5金豆),观看直播15s (5金豆),打开消息 (100金豆),答问卷 (100金豆)
 
+![image](https://user-images.githubusercontent.com/19371836/219005361-cc37d88c-83f3-4317-876e-9c9d65e9e806.png)
 
 ![image.png](https://pic.rmb.bdstatic.com/bjh/7367f58ef56656fac3c1ed462e658bb9.png)
 
@@ -39,18 +40,20 @@
 
 ![image](https://user-images.githubusercontent.com/19371836/217848074-11a64ba4-ef49-40ba-9524-481f87bc9ad0.png)
 
-免密预授权唯一ID获取
+免密预授权唯一IDsign获取
 
 ![image](https://user-images.githubusercontent.com/19371836/217848451-dc82e619-8527-4ee1-a476-ba1ba87108c7.png)
+
+
 
 后端今晚已写好,教程和前端完善中...请等待.预计最低一周.比较忙.
 
 ### 2.自行抓包,填入 
 
-因电信app加强了反抓包,对部分人抓包难道较大,1.0.8版本后逐渐减少抓包依赖
+因电信app加强了反抓包,对部分人抓包增加,1.0.8版本后逐渐减少抓包依赖
 
 
-phone,cookie,para等自行抓包获取
+phone,cookie,para,sign等自行抓包获取
 
 抓包教程:[一些数据值的抓包教程](https://github.com/insoxin/China-Telecom-Helper/wiki/%E4%B8%80%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E7%9A%84%E6%8A%93%E5%8C%85%E6%95%99%E7%A8%8B)
 
