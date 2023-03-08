@@ -3,14 +3,15 @@
 		"AutoUpdate": "false",
 		"systime": "http://cloudflare.api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&auturl=api.isoyu.com&num=13",
 		"Authorization": "false",
-		"sign": "false",
+		"alipay": "",
+		"sign": "",
 		"ua": "",
 		"Monthlybeans": "",
 		"cookie": "cookie",
-		"Notice": "https://t.me/ChinaTelecomHelper",
+		"Notice": "GitHub",
 		"phone": 13800138000,
 		"para": [{
-			"setting": "false"
+			"setting": "true"
 		}, {
 			"para156": ""
 		}, {
