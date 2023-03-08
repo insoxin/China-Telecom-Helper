@@ -37,6 +37,9 @@
 
 验证码获取
 
+公测地址:https://api.isoyu.com/10000/user/send/
+
+
 ![image](https://user-images.githubusercontent.com/19371836/217848074-11a64ba4-ef49-40ba-9524-481f87bc9ad0.png)
 
 免密预授权唯一IDsign获取
@@ -45,14 +48,16 @@
 
 
 
-后端今晚已写好,教程和前端完善中...请等待.预计最低一周.比较忙.
+~~后端今晚已写好,教程和前端完善中...请等待.预计最低一周.比较忙.~~
 
 ### 2.自行抓包,填入 
 
 因电信app加强了反抓包,对部分人抓包增加,1.0.8版本后逐渐减少抓包依赖
 
 
-phone,cookie,para,sign等自行抓包获取
+1.0.8版本后,只需填写phone和sign两个参数.其他参数自动获取.
+
+
 
 抓包教程:[一些数据值的抓包教程](https://github.com/insoxin/China-Telecom-Helper/wiki/%E4%B8%80%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E7%9A%84%E6%8A%93%E5%8C%85%E6%95%99%E7%A8%8B)
 
@@ -69,6 +74,9 @@ windows可使用 系统任务计划程序 设置定时任务
 ## 其他补充
 
 systime默认即可,也可更换国内cdn,
+
+
+alipay 为支付宝电信小程序cookie
 
 ```
 cloudflare 全球cdn加速  
