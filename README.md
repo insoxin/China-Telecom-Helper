@@ -107,11 +107,12 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 
 问题反馈:https://github.com/insoxin/China-Telecom-Helper/issues
 
-觉得好用可以给我下面项目点点star,打赏就不必了.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
+觉得好用可以给我下面项目点点star, ~~打赏就不必了~~.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
 
-https://github.com/insoxin/api
 
-https://github.com/insoxin/China-Telecom-Helper
+需要打赏了,用于支付服务器费用.
+
+![image.png](https://raw.githubusercontent.com/insoxin/API/master/Sponsor.jpg)
 
 
 
