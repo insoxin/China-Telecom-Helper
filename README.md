@@ -67,6 +67,7 @@
 
 1.0.8版本后,只需填写phone和sign两个参数.其他参数自动获取.如果你想自定义任务依旧可以填写相关参数.
 
+注:sign值在请求头部.
 
 
 抓包教程:[一些数据值的抓包教程](https://github.com/insoxin/China-Telecom-Helper/wiki/%E4%B8%80%E4%BA%9B%E6%95%B0%E6%8D%AE%E5%80%BC%E7%9A%84%E6%8A%93%E5%8C%85%E6%95%99%E7%A8%8B)
