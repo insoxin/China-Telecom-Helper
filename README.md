@@ -52,7 +52,11 @@ chmod -R 777 China-Telecom-Helper_linux_amd64
 
 ```
 
-4.进入解压后的目录，使用以下命令行执行China-Telecom-Helper_linux_amd64二进制文件：
+
+
+4.进入解压后的目录，填写配置文件后,使用以下命令行执行China-Telecom-Helper_linux_amd64二进制文件：
+
+
 ```
 cd China-Telecom-Helper_linux_amd64
 
