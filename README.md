@@ -71,9 +71,10 @@ sudo apt-get update
 sudo apt-get install libc6-dev libncurses5-dev libstdc++6
 ```
 
+### 配置文件填写
 
 
-### 1.验证码登录
+#### 1.验证码登录
 
 验证码获取
 
@@ -92,7 +93,7 @@ sudo apt-get install libc6-dev libncurses5-dev libstdc++6
 
 实在没时间搞,先这样,服务器5月到期,服务器涨价了5倍,大概率不续费
 
-#### 短信登录注意事项:
+###### 短信登录注意事项:
  
 1.短信登录会顶掉客户端,登录IP为北京地区,如下图
 ![C05E6052-7F44-4E2B-8B64-BDF21D7DF6C5](https://user-images.githubusercontent.com/19371836/223899248-7f39040e-57d0-42ac-89c5-2edeb25a3529.jpeg)
@@ -100,7 +101,7 @@ sudo apt-get install libc6-dev libncurses5-dev libstdc++6
 
 2.经群友反馈,**五分钟内有两人同时接码就会错乱,也就是说,模拟的客户端限制同时一人使用**.请在低峰期使用或自行抓包. 
 
-### 2.自行抓包,填入 
+#### 2.自行抓包,填入 
 
 因电信app加强了反抓包,对部分人抓包难度增加,1.0.8版本后逐渐减少抓包依赖
 
