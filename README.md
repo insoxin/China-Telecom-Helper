@@ -33,11 +33,11 @@
 下载适合自己系统的版本
 
 
-### 以Linux系统, 电信助手版本1.0.11为例
+### 以Linux系统, 电信助手版本1.0.12为例
 
 1.打开终端，使用以下命令行下载该文件：
 ```
-wget https://github.com/insoxin/China-Telecom-Helper/releases/download/1.0.11/China-Telecom-Helper_linux_amd64.tar.gz
+wget https://github.com/insoxin/China-Telecom-Helper/releases/download/1.0.12/China-Telecom-Helper_linux_amd64.tar.gz
 
 ```
 2.下载完成后，使用以下命令行解压该文件：
