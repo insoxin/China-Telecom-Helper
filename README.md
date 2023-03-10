@@ -29,8 +29,44 @@
 
 
 ## 配置运行
+进入网页https://github.com/insoxin/China-Telecom-Helper/releases
+下载适合自己系统的版本
 
-程序同目录下创建 config.json 文件或者 https://github.com/insoxin/China-Telecom-Helper/blob/main/config.json 下载填写自值
+
+### 以Linux系统, 电信助手版本1.0.11为例
+
+1.打开终端，使用以下命令行下载该文件：
+```
+wget https://github.com/insoxin/China-Telecom-Helper/releases/download/1.0.11/China-Telecom-Helper_linux_amd64.tar.gz
+
+```
+2.下载完成后，使用以下命令行解压该文件：
+
+```
+tar -xzvf China-Telecom-Helper_linux_amd64.tar.gz
+
+```
+3.解压完成后，进入解压后的目录，使用以下命令行赋予目录及其内部文件和子目录最高权限：
+```
+chmod -R 777 China-Telecom-Helper_linux_amd64
+
+```
+
+4.进入解压后的目录，使用以下命令行执行China-Telecom-Helper_linux_amd64二进制文件：
+```
+cd China-Telecom-Helper_linux_amd64
+
+./China-Telecom-Helper_linux_amd64
+```
+
+如果您使用的是Ubuntu或其他基于Debian的Linux发行版，并且在运行时遇到缺少某些依赖项的问题，请使用以下命令安装它们：
+
+```
+sudo apt-get update
+
+sudo apt-get install libc6-dev libncurses5-dev libstdc++6
+```
+
 
 
 ### 1.验证码登录
@@ -77,6 +113,15 @@
 特别注意:电信官方服务器经常抽风,导致不成功所以让他每八小时执行一下,一天三次.显示空白是服务器抽风,显示聚合任务接口成功才是请求成功了
 
 Linux 可使用 Crontab 设置定时任务
+
+以下是在目录/root/China-Telecom-Helper_linux_amd64/下执行China-Telecom-Helper_linux_amd64二进制文件，并且每天执行三次的例子,它将在每天的0、8和16时执行,请修改适合自己的时间和目录
+
+```
+
+0 0,8,16 * * * cd /root/China-Telecom-Helper_linux_amd64/ && ./China-Telecom-Helper_linux_amd64
+
+```
+
 
 windows可使用 系统任务计划程序 设置定时任务
 
