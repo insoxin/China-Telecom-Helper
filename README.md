@@ -29,8 +29,10 @@
 
 
 ## 配置运行
+
 进入网页https://github.com/insoxin/China-Telecom-Helper/releases
-下载适合自己系统的版本
+
+下载适合自己系统的版本, **保证执行目录和配置文件在相同目录**
 
 
 ### 以Linux Debian系统, 电信助手版本1.0.12为例
@@ -73,17 +75,21 @@ sudo apt-get install libc6-dev libncurses5-dev libstdc++6
 
 ### 配置文件填写
 
+#### 1.手机服务密码登录
 
-#### 1.验证码登录
+去年需要提供手机号就被人骂了,并不打算公开这个,吃力不讨好,如需要服务密码登录版本,进内测群(免费,自己在频道蹲内测群链接).
+
+
+#### 2.验证码登录
 
 验证码获取
 
-公测地址:https://api.isoyu.com/10000/user/send/
+公测地址: https://api.isoyu.com/10000/user/send/
 
 
 ![image](https://user-images.githubusercontent.com/19371836/217848074-11a64ba4-ef49-40ba-9524-481f87bc9ad0.png)
 
-免密预授权唯一IDsign获取
+免密预授权唯一ID 及sign获取
 
 ![image](https://user-images.githubusercontent.com/19371836/217848451-dc82e619-8527-4ee1-a476-ba1ba87108c7.png)
 
@@ -96,12 +102,13 @@ sudo apt-get install libc6-dev libncurses5-dev libstdc++6
 ###### 短信登录注意事项:
  
 1.短信登录会顶掉客户端,登录IP为北京地区,如下图
-![C05E6052-7F44-4E2B-8B64-BDF21D7DF6C5](https://user-images.githubusercontent.com/19371836/223899248-7f39040e-57d0-42ac-89c5-2edeb25a3529.jpeg)
 
 
 2.经群友反馈,**五分钟内有两人同时接码就会错乱,也就是说,模拟的客户端限制同时一人使用**.请在低峰期使用或自行抓包. 
 
-#### 2.自行抓包,填入 
+![C05E6052-7F44-4E2B-8B64-BDF21D7DF6C5](https://user-images.githubusercontent.com/19371836/223899248-7f39040e-57d0-42ac-89c5-2edeb25a3529.jpeg)
+
+#### 3.自行抓包 
 
 因电信app加强了反抓包,对部分人抓包难度增加,1.0.8版本后逐渐减少抓包依赖
 
