@@ -97,7 +97,7 @@ sudo apt-get install libc6-dev libncurses5-dev libstdc++6
 
 ~~后端今晚已写好,教程和前端完善中...请等待.预计最低一周.比较忙.~~
 
-实在没时间搞,先这样,服务器5月到期,服务器涨价了5倍,大概率不续费
+实在没时间搞,先这样,服务器5月到期,服务器涨价了5倍,大概率不续费 
 
 ###### 短信登录注意事项:
  
@@ -165,13 +165,14 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 
 问题反馈:https://github.com/insoxin/China-Telecom-Helper/issues
 
-觉得好用可以给我下面项目点点star, ~~打赏就不必了~~.不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
+觉得好用可以给我下面项目点点star, ~~打赏就不必了~~.
 
 
-需要打赏了,用于支付服务器费用.
+需要打赏了,用于支付服务器费用.截至2023年5月22日0人打赏,已关闭相关依赖服务器服务 部分功能已无法使用
 
-![image.png](https://raw.githubusercontent.com/insoxin/API/master/Sponsor.jpg)
+~![image.png](https://raw.githubusercontent.com/insoxin/API/master/Sponsor.jpg)~
 
+不盈利.如果你发现有什么签到奖励蛮好的,可以留言,无偿定制
 
 
 ## Stargazers over time
