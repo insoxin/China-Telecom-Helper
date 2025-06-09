@@ -179,3 +179,4 @@ https://api.isoyu.com/time/SysTime/?appCode=B586A14C4EC466D33682F8626CCB3794&aut
 
 [![Stargazers over time](https://starchart.cc/insoxin/China-Telecom-Helper.svg)](https://starchart.cc/insoxin/China-Telecom-Helper)
 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
